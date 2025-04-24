@@ -441,7 +441,7 @@ async def start_command(client, message):
     welcome_message += status_message
     
     # Add buttons based on premium status
-    join_button = InlineKeyboardButton("Join Channel ❤️", url=REQUIRED_CHANNELS["Ashlynn_Repository"]["invite_link"])
+    join_button = InlineKeyboardButton("Join Channel ❤️", url=REQUIRED_CHANNELS["Sr_Robots"]["invite_link"])
     developer_button = InlineKeyboardButton("Developer ⚡️", url="https://t.me/sr_robots")
     profile_button = InlineKeyboardButton("My Profile 👤", callback_data="profile")
     premium_button = InlineKeyboardButton("Premium ⭐", callback_data="premium_info")
@@ -664,7 +664,7 @@ async def handle_callback(client, callback_query):
             )
             
             # Add buttons
-            join_button = InlineKeyboardButton("Join Channel ❤️", url=REQUIRED_CHANNELS["Ashlynn_Repository"]["invite_link"])
+            join_button = InlineKeyboardButton("Join Channel ❤️", url=REQUIRED_CHANNELS["Sr_Robots"]["invite_link"])
             developer_button = InlineKeyboardButton("Developer ⚡️", url="https://t.me/sr_robots")
             profile_button = InlineKeyboardButton("My Profile 👤", callback_data="profile")
             back_button = InlineKeyboardButton("🔙 Admin Panel", callback_data="admin_back")
@@ -816,7 +816,7 @@ async def handle_callback(client, callback_query):
             )
             
             # Add buttons based on premium status
-            join_button = InlineKeyboardButton("Join Channel ❤️", url=REQUIRED_CHANNELS["Ashlynn_Repository"]["invite_link"])
+            join_button = InlineKeyboardButton("Join Channel ❤️", url=REQUIRED_CHANNELS["Sr_Robots"]["invite_link"])
             developer_button = InlineKeyboardButton("Developer ⚡️", url="https://t.me/sr_robots")
             profile_button = InlineKeyboardButton("My Profile 👤", callback_data="profile")
             premium_button = InlineKeyboardButton("Premium ⭐", callback_data="premium_info")
