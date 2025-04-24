@@ -139,7 +139,7 @@ except Exception as e:
 
 # Initialize MongoDB connection
 try:
-    mongo_url = os.environ.get('MONGO_URL', 'mongodb+srv://filestream:filestream1@cluster0.nneip.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+    mongo_url = os.environ.get('MONGO_URL', 'mongodb+srv://shresthstakeyt:pkLkVmVw2xCkdtvD@tera0.kbiwslv.mongodb.net/?retryWrites=true&w=majority&appName=tera0')
     client = MongoClient(mongo_url)
     # Test the connection
     client.admin.command('ping')
@@ -331,13 +331,13 @@ async def start_command(client, message):
                 "✅ Priority Processing\n"
                 "✅ Premium Support\n\n"
                 "📊 **Pricing Plans (Telegram Stars):**\n"
-                "• 1 Month: 200 Stars ⭐\n"
-                "• 2 Months: 350 Stars ⭐\n"
-                "• 3 Months: 500 Stars ⭐\n\n"
+                "• 1 Month: 25 Stars ⭐\n"
+                "• 2 Months:50 Stars ⭐\n"
+                "• Lifetime: 100 Stars ⭐\n\n"
                 "Purchase premium via our payment bot to unlock all features instantly!"
             )
             
-            purchase_month = InlineKeyboardButton("Purchase ⭐", url="https://t.me/igrisGPTBOT/?start=purchase")
+            purchase_month = InlineKeyboardButton("Purchase ⭐", url="https://t.me/srxpremiumBOT/?start=purchase")
             three_months = InlineKeyboardButton("How to Purchase", url="https://t.me/sr_bots_premium_tutorial")
             join_support = InlineKeyboardButton("📱 Support", url="https://t.me/SR_SUPPORTxBOT")
             
@@ -413,7 +413,7 @@ async def start_command(client, message):
         f"🌟 **Welcome to the Ultimate TeraBox Downloader Bot, {user_mention}!**\n\n"
         f"🚀 **Why Choose This Bot?**\n"
         f"- **Unmatched Speed**: Experience the fastest and most powerful TeraBox downloader on Telegram. ⚡\n"
-        f"- **100% Free Forever**: No hidden fees or subscriptions—completely free for everyone! 🆓\n"
+        f"- **100% Free **: Verify Via Short Link And Enjoy For Free 🆓\n"
         f"- **Seamless Downloads**: Easily download TeraBox files and have them sent directly to you. 🎥📁\n"
         f"- **24/7 Availability**: Access the bot anytime, anywhere, without downtime. ⏰\n\n"
         f"🎯 **How It Works**\n"
@@ -441,8 +441,8 @@ async def start_command(client, message):
     welcome_message += status_message
     
     # Add buttons based on premium status
-    join_button = InlineKeyboardButton("Join Channel ❤️", url=REQUIRED_CHANNELS["Ashlynn_Repository"]["invite_link"])
-    developer_button = InlineKeyboardButton("Developer ⚡️", url="https://t.me/Itz_Ashlynn")
+    join_button = InlineKeyboardButton("Join Channel ❤️", url=REQUIRED_CHANNELS["sr_robots"]["invite_link"])
+    developer_button = InlineKeyboardButton("Developer ⚡️", url="https://t.me/sr_robots")
     profile_button = InlineKeyboardButton("My Profile 👤", callback_data="profile")
     premium_button = InlineKeyboardButton("Premium ⭐", callback_data="premium_info")
     
@@ -529,7 +529,7 @@ async def profile_command(client, message):
     )
     
     # Add buttons
-    premium_button = InlineKeyboardButton("Get Premium ⭐", url="https://t.me/igrisGPTBOT/?start=purchase")
+    premium_button = InlineKeyboardButton("Get Premium ⭐", url="https://t.me/srxpremiumBOT/?start=purchase")
     verify_button = None
     
     if not premium_status and not shortlink_verified and not is_admin and download_count >= FREE_DOWNLOADS:
@@ -655,7 +655,7 @@ async def handle_callback(client, callback_query):
                 f"🌟 Welcome to the Ultimate TeraBox Downloader Bot, {user_mention}!\n\n"
                 "🚀 **Why Choose This Bot?**\n"
                 "- **Unmatched Speed**: Experience the fastest and most powerful TeraBox downloader on Telegram. ⚡\n"
-                "- **100% Free Forever**: No hidden fees or subscriptions—completely free for everyone! 🆓\n"
+                "- **100% Free **: Verify Via Short Link And Enjoy For Free 🆓\n"
                 "- **Seamless Downloads**: Easily download TeraBox files and have them sent directly to you. 🎥📁\n"
                 "- **24/7 Availability**: Access the bot anytime, anywhere, without downtime. ⏰\n\n"
                 "🎯 **How It Works**\n"
@@ -664,8 +664,8 @@ async def handle_callback(client, callback_query):
             )
             
             # Add buttons
-            join_button = InlineKeyboardButton("Join Channel ❤️", url=REQUIRED_CHANNELS["Ashlynn_Repository"]["invite_link"])
-            developer_button = InlineKeyboardButton("Developer ⚡️", url="https://t.me/Itz_Ashlynn")
+            join_button = InlineKeyboardButton("Join Channel ❤️", url=REQUIRED_CHANNELS["sr_robots"]["invite_link"])
+            developer_button = InlineKeyboardButton("Developer ⚡️", url="https://t.me/sr_robots")
             profile_button = InlineKeyboardButton("My Profile 👤", callback_data="profile")
             back_button = InlineKeyboardButton("🔙 Admin Panel", callback_data="admin_back")
             
@@ -730,7 +730,7 @@ async def handle_callback(client, callback_query):
             )
             
             # Add buttons
-            premium_button = InlineKeyboardButton("Get Premium ⭐", url="https://t.me/igrisGPTBOT/?start=purchase")
+            premium_button = InlineKeyboardButton("Get Premium ⭐", url="https://t.me/srxpremiumBOT/?start=purchase")
             verify_button = None
             
             if not premium_status and not shortlink_verified and not is_admin and download_count >= FREE_DOWNLOADS:
@@ -816,8 +816,8 @@ async def handle_callback(client, callback_query):
             )
             
             # Add buttons based on premium status
-            join_button = InlineKeyboardButton("Join Channel ❤️", url=REQUIRED_CHANNELS["Ashlynn_Repository"]["invite_link"])
-            developer_button = InlineKeyboardButton("Developer ⚡️", url="https://t.me/Itz_Ashlynn")
+            join_button = InlineKeyboardButton("Join Channel ❤️", url=REQUIRED_CHANNELS["sr_robots"]["invite_link"])
+            developer_button = InlineKeyboardButton("Developer ⚡️", url="https://t.me/sr_robots")
             profile_button = InlineKeyboardButton("My Profile 👤", callback_data="profile")
             premium_button = InlineKeyboardButton("Premium ⭐", callback_data="premium_info")
             
@@ -852,14 +852,14 @@ async def handle_callback(client, callback_query):
                 "• 🔄 **Parallel Downloads**: Download multiple files at once\n"
                 "• 🛡️ **Premium Support**: Get priority assistance\n\n"
                 "📊 **Pricing Plans (Telegram Stars):**\n"
-                "• 1 Month: 200 Stars ⭐\n"
-                "• 2 Months: 350 Stars ⭐\n"
-                "• 3 Months: 500 Stars ⭐\n\n"
+                "• 1 Month: 25 Stars ⭐\n"
+                "• 2 Months: 50 Stars ⭐\n"
+                "• Lifetime: 100 Stars ⭐\n\n"
                 "Purchase premium via our payment bot to unlock all features instantly!"
             )
             
             # Create buttons for premium purchase
-            premium_button = InlineKeyboardButton("Purchase Premium 💎", url="https://t.me/igrisGPTBOT/?start=purchase")
+            premium_button = InlineKeyboardButton("Purchase Premium 💎", url="https://t.me/srxpremiumBOT/?start=purchase")
             tutorial_video = InlineKeyboardButton("How to Purchase", url="https://t.me/sr_bots_premium_tutorial")
             contact_button = InlineKeyboardButton("Contact Support 👨‍💻", url="https://t.me/SR_SUPPORTxBOT")
             back_button = InlineKeyboardButton("🔙 Back", callback_data="back_to_menu")
@@ -882,7 +882,7 @@ async def handle_callback(client, callback_query):
                 "You'll be redirected to our payment bot to complete your premium purchase using Telegram Stars.\n\n"
                 "Please click the button below to proceed:",
                 reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton("Go to Payment Bot 💳", url="https://t.me/igrisGPTBOT/?start=purchase")],
+                    [InlineKeyboardButton("Go to Payment Bot 💳", url="https://t.me/srxpremiumBOT/?start=purchase")],
                     [InlineKeyboardButton("🔙 Back to Plans", callback_data="premium_info")]
                 ])
             )
@@ -1145,7 +1145,7 @@ async def handle_message(client, message: Message):
         )
         
         verify_button = InlineKeyboardButton("Verify Now 🔗", url=link)
-        premium_button = InlineKeyboardButton("Get Premium ⭐", url="https://t.me/igrisGPTBOT/?start=purchase")
+        premium_button = InlineKeyboardButton("Get Premium ⭐", url="https://t.me/srxpremiumBOT/?start=purchase")
         tutorial_button = InlineKeyboardButton("How to Verify 🎥", url=TUT_VID)
         
         await message.reply_text(
@@ -1479,14 +1479,14 @@ async def premium_command(client, message):
                 "• 🔄 **Parallel Downloads**: Download multiple files at once\n"
                 "• 🛡️ **Premium Support**: Get priority assistance\n\n"
                 "📊 **Pricing Plans (Telegram Stars):**\n"
-                "• 1 Month: 200 Stars ⭐\n"
-                "• 2 Months: 350 Stars ⭐\n"
-                "• 3 Months: 500 Stars ⭐\n\n"
+                "• 1 Month: 25 Stars ⭐\n"
+                "• 2 Months: 50 Stars ⭐\n"
+                "• 3 Months: 100 Stars ⭐\n\n"
                 "Purchase premium via our payment bot to unlock all features instantly!"
             )
             
             # Create buttons with direct links to purchase options
-            purchase_month = InlineKeyboardButton("Purchase ⭐", url="https://t.me/igrisGPTBOT/?start=purchase")
+            purchase_month = InlineKeyboardButton("Purchase ⭐", url="https://t.me/srxpremiumBOT/?start=purchase")
             tutorial_video = InlineKeyboardButton("How to purchase", url="https://t.me/sr_bots_premium_tutorial")
             contact_button = InlineKeyboardButton("Contact Support 👨‍💻", url="https://t.me/SR_SUPPORTxBOT")
             
@@ -1546,7 +1546,7 @@ async def buy_command(client, message):
             f"⏳ Time remaining: **{days}d {hours}h {minutes}m**\n\n"
             f"If you wish to extend your subscription, please purchase additional premium time.",
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("Extend Premium ⭐", url="https://t.me/igrisGPTBOT/?start=purchase")]
+                [InlineKeyboardButton("Extend Premium ⭐", url="https://t.me/srxpremiumBOT/?start=purchase")]
             ])
         )
         return
@@ -1561,15 +1561,15 @@ async def buy_command(client, message):
         f"✅ **Full speed downloads**\n"
         f"✅ **No queue waiting**\n\n"
         f"**Choose Your Plan (Telegram Stars):**\n\n"
-        f"⭐ **1 Month**: 200 Stars\n"
-        f"⭐ **2 Months**: 350 Stars (Save 12%)\n"
-        f"⭐ **3 Months**: 500 Stars (Save 17%)\n\n"
+        f"⭐ **1 Month**: 25 Stars\n"
+        f"⭐ **2 Months**: 50 Stars \n"
+        f"⭐ **Lifetime**: 100 Stars \n\n"
         f"To purchase, select a plan below:"
     )
     
     buttons = [
         [
-            InlineKeyboardButton("Purchase ⭐", url="https://t.me/igrisGPTBOT/?start=purchase")
+            InlineKeyboardButton("Purchase ⭐", url="https://t.me/srxpremiumBOT/?start=purchase")
         ],        
         [
             InlineKeyboardButton("How to purchase", url="https://t.me/sr_bots_premium_tutorial")
