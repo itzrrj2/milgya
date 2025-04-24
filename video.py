@@ -237,14 +237,14 @@ async def handle_video_download_failure(url: str, reply_msg, error: Exception) -
                 failure_message += "\n\n⬇️ You can try the direct download link."
             
             # Add watch online options
-            buttons.append([InlineKeyboardButton("📺 Watch Online", web_app=WebAppInfo(url=f"https://terabox-watch.netlify.app/?url={url}"))])
-            buttons.append([InlineKeyboardButton("📺 Alternative Viewer", web_app=WebAppInfo(url=f"https://terabox-watch.netlify.app/api2.html?url={url}"))])
+            buttons.append([InlineKeyboardButton("🌐 Watch Online", web_app=WebAppInfo(url=f"https://terabox-watch.netlify.app/?url={url}"))])
+            buttons.append([InlineKeyboardButton("🌐 Alternative Viewer", web_app=WebAppInfo(url=f"https://terabox-watch.netlify.app/api2.html?url={url}"))])
             
             # Add retry button
             buttons.append([InlineKeyboardButton("🔄 Try Again", callback_data=f"retry_{url}")])
             
             # Add contact support
-            buttons.append([InlineKeyboardButton("📱 Contact Support", url="https://t.me/Itz_Ashlynn")])
+            buttons.append([InlineKeyboardButton("📱 Contact Support", url="https://t.me/sr_supportxbot")])
             
             # Create keyboard
             keyboard = InlineKeyboardMarkup(buttons)
