@@ -1,7 +1,7 @@
 import os
 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://shresthstakeyt:pkLkVmVw2xCkdtvD@tera0.kbiwslv.mongodb.net/?retryWrites=true&w=majority&appName=tera0")
-DB_NAME = os.environ.get("DATABASE_NAME", "teraxbot")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://artera:pkNyfHhvni8ESkt9@terabox.7exfejy.mongodb.net/?retryWrites=true&w=majority&appName=terabox")
+DB_NAME = os.environ.get("DATABASE_NAME", "cphdlust")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "urlwala.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "27ac367a3f2ad369050e9ad246c310a4caaef5ad")
