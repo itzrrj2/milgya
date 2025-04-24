@@ -1,10 +1,10 @@
-# TeraBox Downloader Bot
+# TeraBDownloader Bot
 
-A Telegram bot for downloading videos and files from TeraBox.
+A Telegram bot for downloading videos and files from Ter.
 
 ## Features
 
-- ⚡ Fast downloads from TeraBox
+- ⚡ Fast downloads from Ter
 - 📥 3 free downloads for all users
 - 🔄 Shortlink verification for additional downloads
 - 💎 Premium membership support
@@ -63,12 +63,12 @@ TUT_VID=your_tutorial_video_url
 
 2. Build the Docker image:
    ```bash
-   docker build -t terabox-bot .
+   docker build -t te-bot .
    ```
 
 3. Run the container:
    ```bash
-   docker run -d --env-file config.env terabox-bot
+   docker run -d --env-file config.env ter-bot
    ```
 
 ### Manual Installation
@@ -97,7 +97,7 @@ TUT_VID=your_tutorial_video_url
 
 5. Start the bot:
    ```bash
-   python terabox.py
+   python te.py
    ```
 
 ## User Guide
@@ -105,7 +105,7 @@ TUT_VID=your_tutorial_video_url
 ### Basic Usage
 
 1. Start the bot by sending `/start`
-2. Send a TeraBox link to download the file
+2. Send a Ter link to download the file
 3. The bot will process the link and send the file to you
 
 ### Commands
@@ -236,7 +236,7 @@ sudo docker-compose up --build
 
 1. Start the bot on Telegram
 2. Join the required channels
-3. Send a TeraBox link to download
+3. Send a Teralink to download
 4. After 3 free downloads, verify through shortlink or purchase premium
 
 ## 🔒 Privacy & Security
@@ -247,7 +247,7 @@ sudo docker-compose up --build
 
 ## 🔰 Credits
 
-- TeraBox-DL API
+- Ter-DL API
 - PyroGram
 - All relevant libraries and contributors
 
