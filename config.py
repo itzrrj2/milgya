@@ -17,11 +17,11 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", "TeraboxyerBot")
 
 # Required channel details
 REQUIRED_CHANNELS = {
-    "Ashlynn_Repository": {
+    "Sr_Robots": {
         "id": os.environ.get("CHANNEL_1", "@sr_robots"),
         "invite_link": os.environ.get("CHANNEL_1_LINK", "https://t.me/sr_robots")
     },
-    "Ashlynn_RepositoryBot": {
+    "Xstream_Links2": {
         "id": os.environ.get("CHANNEL_2", "@xstream_links2"),
         "invite_link": os.environ.get("CHANNEL_2_LINK", "https://t.me/xstream_links2")
     }
