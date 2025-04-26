@@ -11,7 +11,7 @@ TUT_VID = os.environ.get("TUT_VID", "https://t.me/sr_trbx_tutorial") # shareus k
 
 # New configuration settings
 PREMIUM_URL = os.environ.get("PREMIUM_URL", "https://t.me/srxpremiumBOT/?start=purchase")
-FREE_DOWNLOADS = int(os.environ.get("FREE_DOWNLOADS", 3))  # Allow 3 free downloads
+FREE_DOWNLOADS = int(os.environ.get("FREE_DOWNLOADS", 1))  # Allow 3 free downloads
 SHORTLINK_HOURS = int(os.environ.get("SHORTLINK_HOURS", 12))
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "TeraboxyerBot")
 
