@@ -3,8 +3,8 @@ import os
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://shresthstakeyt:pkLkVmVw2xCkdtvD@tera0.kbiwslv.mongodb.net/?retryWrites=true&w=majority&appName=tera0")
 DB_NAME = os.environ.get("DATABASE_NAME", "teraxbot")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "urlwala.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "27ac367a3f2ad369050e9ad246c310a4caaef5ad")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "bharatlinks.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "442622b64c0c0829663e547bd8c5d685b9c3773c")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 43200)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/sr_trbx_tutorial") # shareus ka tut_vid he 
