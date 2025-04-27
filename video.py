@@ -46,7 +46,7 @@ async def get_direct_link(url: str) -> Optional[Dict[str, Any]]:
     """
     apis_to_try = [
         f"https://ashlynn.serv00.net/techcodertera.php?url={url}",
-        f"https://terabox.pikaapis.workers.dev/?url={url}"
+        f"https://terabox-pika.vercel.app/?url={url}"
     ]
     
     for api_url in apis_to_try:
