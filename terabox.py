@@ -139,11 +139,11 @@ except Exception as e:
 
 # Initialize MongoDB connection
 try:
-    mongo_url = os.environ.get('MONGO_URL', 'mongodb+srv://shresthstakeyt:pkLkVmVw2xCkdtvD@tera0.kbiwslv.mongodb.net/?retryWrites=true&w=majority&appName=tera0')
+    mongo_url = os.environ.get('MONGO_URL', 'mongodb+srv://shresthforyt:NY9pM7Yp70RndD9w@terab.v3zltm8.mongodb.net/?retryWrites=true&w=majority&appName=Terab')
     client = MongoClient(mongo_url)
     # Test the connection
     client.admin.command('ping')
-    db = client['teraxbot']
+    db = client['Terab']
     users_collection = db['users']
     logger.info("MongoDB connection initialized successfully")
 except Exception as e:
