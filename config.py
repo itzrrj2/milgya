@@ -1,7 +1,7 @@
 import os
 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://shresthstakeyt:pkLkVmVw2xCkdtvD@tera0.kbiwslv.mongodb.net/?retryWrites=true&w=majority&appName=tera0")
-DB_NAME = os.environ.get("DATABASE_NAME", "teraxbot")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://shresthforyt:NY9pM7Yp70RndD9w@terab.v3zltm8.mongodb.net/?retryWrites=true&w=majority&appName=Terab")
+DB_NAME = os.environ.get("DATABASE_NAME", "Terab")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "bharatlinks.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "442622b64c0c0829663e547bd8c5d685b9c3773c")
